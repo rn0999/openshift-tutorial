@@ -8,7 +8,7 @@ public class Controller {
 
     @GetMapping("/")
     public String welcomeByDefault(){
-        return "Welcome Version v2";
+        return "Welcome Version v2.1";
     }
 
     @GetMapping("/hi")
